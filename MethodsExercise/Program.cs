@@ -6,10 +6,10 @@ namespace MethodsExercise
     {
         public static string GetAnswer(string question)
         {
-            string userInput;
+            //string userInput;
             Console.WriteLine(question);
-            userInput = Console.ReadLine();
-            return userInput;
+            //userInput = Console.ReadLine();
+            return Console.ReadLine();
         }
         public static int Add(int num1, int num2)
         {
